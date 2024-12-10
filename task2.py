@@ -29,3 +29,18 @@ Access granted
 
 
 """
+
+username = False
+password = False
+
+
+while not username and not password:
+    eu = input("enter username: ")
+    ep = input("enter password: ")
+    if eu != "admin" or ep != "12345":
+        print("access denied")
+    else:
+        username = True
+        password = True
+
+print("access granted")

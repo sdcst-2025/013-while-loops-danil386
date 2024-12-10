@@ -17,3 +17,14 @@ example:
 Enter a number: 4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
+
+x = input("enter a number: ")
+x = int(x)
+y = 1
+multiple = False
+
+while not multiple:
+    print(x*y)
+    y = y+1
+    if y > 12:
+        break

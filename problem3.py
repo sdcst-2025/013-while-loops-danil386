@@ -13,3 +13,23 @@ after the number in the sequence is greater than 100:
 Example:
 1 1 2 3 5 ...
 """
+
+Fibonacci = False
+x = 0
+y = 1
+print (1)
+
+while not Fibonacci:
+    z = y+x
+    if z > 100:
+        break
+    print(z)
+    x = y+z
+    if x > 100:
+        break
+    print(x)
+    y = z + x
+    if y > 100:
+        break
+    print(y)
+
